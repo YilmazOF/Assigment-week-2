@@ -1,0 +1,96 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: ;
+  font-family: "Times New Roman", Times, serif;
+}
+header {
+  background-color: rgba(59, 66, 99, 0.928);
+  height: 70px;
+  width: 100;
+}
+nav {
+  float: right;
+  margin-right: 20px;
+  margin-top: 25px;
+}
+nav li {
+  display: inline-block;
+}
+nav a {
+  font-size: 13px;
+  background-color: rgb(131, 33, 33);
+  background-image: linear-gradient(to right, rgb(16, 33, 80), red);
+  color: white;
+  padding: 23px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-decoration: none;
+  border-bottom-right-radius: 25px;
+  border-top-left-radius: 25px;
+  margin: 10px;
+}
+.ana {
+  display: inline-block;
+  float: left;
+  margin-inline: 30px;
+  margin-top: 30px;
+}
+.cerceve {
+  display: inline-block;
+  background-color: rgb(49, 47, 47);
+  color: white;
+  width: 250px;
+  height: 150px;
+  margin: 10px;
+  margin-top: 15px;
+  padding: 15px;
+}
+.cerceve h3 {
+  margin-top: 15px;
+}
+.cerceve a {
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+  padding: 0px;
+  margin: 0px;
+}
+.cerceve ul {
+  margin-top: 15px;
+}
+.cerceve li {
+  padding: 5px;
+}
+.cerceve a:hover {
+  color: red;
+}
+.govde {
+  display: inline-block;
+  height: 320px;
+  width: 850px;
+  border: 5px solid rgb(105, 36, 36);
+  background-color: rgb(229, 195, 201);
+  border-bottom: 10px solid rgb(105, 36, 36);
+  border-bottom-style: groove;
+  margin-top: 80px;
+}
+.govde p,
+h2 {
+  padding-left: 10px;
+  padding-right: 40px;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background-color: rgb(49, 47, 47);
+  color: white;
+  padding: 5px 0;
+  text-align: center;
+}
